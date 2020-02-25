@@ -5,6 +5,6 @@ COPY . /express_app/
 CMD cd /express_app
 RUN npm install
 EXPOSE 3000
-CMD node index.js
+CMD ['./start.sh']
 
 
